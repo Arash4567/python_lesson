@@ -8,3 +8,29 @@ Dec 16, 2020 9:48:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTraceNotification
 Dec 16, 2020 9:48:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.12.16 22:04:50 INFO  shutting down Metals
+2020.12.17 09:43:29 INFO  Started: Metals version 0.9.7 in workspace '/home/developer/VSCode/python_lesson' for client vscode.
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@4457c410 rejected from java.util.concurrent.ThreadPoolExecutor@3b9e03d[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.12.17 19:26:10 INFO  Started: Metals version 0.9.7 in workspace '/home/developer/VSCode/python_lesson' for client vscode.
+2020.12.17 19:26:20 INFO  time: initialize in 9.71s
+2020.12.17 19:26:22 WARN  Build server is not auto-connectable.
+2020.12.17 19:26:22 WARN  no build tool detected in workspace '/home/developer/VSCode/python_lesson'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 17, 2020 7:26:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.12.17 19:26:48 INFO  shutting down Metals
