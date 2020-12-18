@@ -51,3 +51,14 @@ print(d.endswith('!'))
 
 print(d.count('A')+d.count('a'))
 
+print(d.swapcase())
+
+# g = input("Sonni kiriting: ")
+# print('O`qib olgan sonimiz g = ',g)
+
+g = int(input("Sonni kiriting: "))
+print('O`qib olgan sonimiz g = ',g)
+
+
+#(x-y)/(x**5+y**3)
+

@@ -40,3 +40,5 @@ INFO: Unsupported notification method: $/setTraceNotification
 2020.12.18 10:08:57 WARN  no build tool detected in workspace '/home/developer/VSCode/python_lesson'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 Dec 18, 2020 10:50:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.12.18 17:37:18 INFO  shutting down Metals
+2020.12.18 19:50:48 INFO  Started: Metals version 0.9.7 in workspace '/home/developer/VSCode/python_lesson' for client vscode.
