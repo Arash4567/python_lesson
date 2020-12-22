@@ -11,3 +11,8 @@ print('a * b = ', a*b)
 print('a / b = ', a/b)
 #Sonni darajaga ko`tarish
 print('a ^ b = ', a**b)
+
+a = 7
+b = 3
+print('Qoldiq = ',a%b)
+print('Butun qismi = ',a//b)

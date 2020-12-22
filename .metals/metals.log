@@ -45,3 +45,9 @@ INFO: Unsupported notification method: $/setTraceNotification
 2020.12.18 19:50:58 INFO  time: initialize in 10s
 2020.12.18 19:51:02 WARN  Build server is not auto-connectable.
 2020.12.18 19:51:02 WARN  no build tool detected in workspace '/home/developer/VSCode/python_lesson'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 22:28:06 INFO  shutting down Metals
+2020.12.21 11:02:37 INFO  Started: Metals version 0.9.8 in workspace '/home/developer/VSCode/python_lesson' for client vscode.
+2020.12.21 11:02:51 INFO  time: initialize in 14s
+2020.12.21 11:02:53 WARN  Build server is not auto-connectable.
+2020.12.21 11:02:53 WARN  no build tool detected in workspace '/home/developer/VSCode/python_lesson'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.21 14:43:05 INFO  shutting down Metals
