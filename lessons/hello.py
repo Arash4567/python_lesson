@@ -49,25 +49,3 @@ print(a)
 print(b)
 '''
 
-#Bu qism keyinroq o`tiladi
-# baho = 5
-# if baho == 5 :
-#     print(baho,"-> a`lo")
-
-# a = int(input("Son kiriting: "))
-# if (a%2 == 1):
-#     print("toq son")
-# else: 
-#     print("juft son")
-
-# if (a > 0):
-#     print("musbat son")
-# elif(a < 0):
-#     print("manfiy son")
-# else:
-#     print("nolga teng!")
-
-# k = 1
-# while k<=10:
-#     print(k,end = ' ')
-#     k += 1  
