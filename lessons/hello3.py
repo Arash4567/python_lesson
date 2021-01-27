@@ -47,7 +47,7 @@ print(math.log(4,2)) #lagorifm 2 asosga ko`ra 4
 print(math.log10(1000))
 #sonning darajasi
 print(math.pow(2,3)) # 2 ning 3-darajasi
-#sonning kvadrat ildizi
+#sonning kvadrat ildizi\
 print(math.sqrt(81))
 #radian to degree
 print(math.degrees(1.57))

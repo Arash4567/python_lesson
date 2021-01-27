@@ -36,6 +36,8 @@ print('Assalomu aleykum {}!'.format(k))
 #kiritilgan satrning boshidan boshlab qanchadir belgisini chiqarish
 print('{:.3}'.format(k))
 print(k.casefold())
+
+
 #len
 print(len(k))
 #string index
@@ -53,9 +55,9 @@ print(k[::-1])
 
 
 #swap two word position
-s = input("Satr kiriting: ")
-print(s)
-print(s.split())
-print(' '.join(s))
-print(' '.join(s.split()))
-print(' '.join(s.split()[::-1]))
+# s = input("Satr kiriting: ")
+# print(s)
+# print(s.split())
+# print(' '.join(s))
+# print(' '.join(s.split()))
+# print(' '.join(s.split()[::-1]))
