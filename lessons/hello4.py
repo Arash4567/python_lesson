@@ -1,6 +1,6 @@
 #4-DARS
 
-#Bu qism keyinroq o`tiladi
+#Bu qismda chiziqli dasturlash tuzish bilan o`tilganlarni takrorlash bo`ladi
 # baho = 5
 # if baho == 5 :
 #     print(baho,"-> a`lo")
@@ -18,21 +18,17 @@
 # else:
 #     print("nolga teng!")
 
-# k = 1
-# while k<=10:
-#     print(k,end = ' ')
-#     k += 1  
-
 #TASODIFIY KARRA JADVAL
-from random import randint 
+# from random import randint 
 
-a = randint(1,9)
-b = randint(1,9)
+# a = randint(1,9)
+# b = randint(1,9)
 
-c = int(input('{} * {} = '.format(a, b)))
+# c = int(input('{} * {} = '.format(a, b)))
 
-if c == (a * b):
-    print('True!')
-else: 
-    print('False')
+# if c == (a * b):
+#     print('True!')
+# else: 
+#     print('False')
+
 
