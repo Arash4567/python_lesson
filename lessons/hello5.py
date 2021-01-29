@@ -3,6 +3,7 @@
 #LIST Methods
 numbers = [5,8,7,6,1,3,1,2]
 numbers.append(50)
+
 print(numbers)
 numbers.insert(0,11)
 print(numbers)
