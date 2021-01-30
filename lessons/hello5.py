@@ -23,3 +23,7 @@ print(numbers)
 numbers2 = numbers.copy()
 print(numbers2)
 
+# for loops
+for item in numbers:
+    if item % 2 == 1:
+        print(item)
