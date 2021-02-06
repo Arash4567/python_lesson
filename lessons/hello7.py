@@ -23,7 +23,12 @@ def salomlashish():
 salomlashish()
 
 #funksiyaga parametr kiritish
-def inson(ism):
+def inson1(ism):
     print(f"Assalomu aleykum, {ism}")
 
-inson("Anvar")
+inson1("Anvar")
+
+def inson2(ism,familiya):
+    print(f"Assalomu aleykum, {ism} {familiya} !")
+
+inson2("Anvar","Sobirov")
